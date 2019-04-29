@@ -1,0 +1,15 @@
+1.thread.Join把指定的线程加入到当前线程，可以将两个交替执行的线程合并为顺序执行的线程。
+
+      比如在线程B中调用了线程A的Join()方法，直到线程A执行完毕后，才会继续执行线程B。
+
+      t.join();      //调用join方法，等待线程t执行完毕
+      t.join(1000);  //等待 t 线程，等待时间是1000毫秒。
+2.p = Runtime.getRuntime().exec(cmd);
+    StreamGobblererrorGobbler = new StreamGobbler( p.getErrorStream(), System.err);
+    StreamGobbler outGobbler = new StreamGobbler( p.getInputStream(), System.out);
+    errorGobbler.start();
+    outGobbler.start();
+    p.waitFor();
+    errorGobbler.join(); // Handle condition where the
+    outGobbler.join(); // process ends before the threads finish
+    cmdExecuteResult.setExecuteResult(p.exitValue());
