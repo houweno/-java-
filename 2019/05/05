@@ -1,0 +1,3 @@
+实例锁：对一个类的一个实例对象（对象A）进行加锁，防止其他线程同时访问对象A的synchronized块，但是对不同的此类的实例对象不做控制。实例锁使用Synchronized关键字修饰。
+类锁：对一个类的所有实例对象进行加锁，限制多线程中该类的所有实例同时访问该类的synchronized块。类锁使用Static Synchronized关键字修饰。
+https://www.jianshu.com/p/70573cbb3d19
