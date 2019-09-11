@@ -8,6 +8,10 @@
 	4.vipkid面试：string分配实现原理。小熊博望：可以作为gcroot的对象有哪些
 	5.小熊博望：系统占用内存过高，原因的分析，是不是内存回收算法的设置有问题，或者一些jvm参数设置有问题
 	6.强引用，弱引用，虚引用
+	7.Java位运算
+	8.java8的ConcurrentHashMap为何放弃分段锁
+	9.可重入锁与不可重入锁
+	
 3.servlet工作原理
 4.spring实现原理，
 	1.商城购物车的作用域等
@@ -44,7 +48,7 @@
 	2.tomcat使用的设计模式：观察者模式
 	3.Java io中使用的设计模式：适配器模式
 	
-	1.必要商城：单例模式的实现方式
+	1.必要商城：单例模式常用三种写法
 15.ElasticSearch
 16.HAProxy
 17.zookeeper,Quorum,hdfs，cassandra。CAP kafka
